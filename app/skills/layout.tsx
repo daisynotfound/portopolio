@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fajar Andhika - Skills",
     description: "Fajar Andhika - Skills ",
-    url: "https://portfolio.alamondai.com/skills",
+    url: "https://fan-png.vercel.app/skills",
     siteName: "Natnael Engeda - Portfolio",
     images: [
       {
@@ -24,14 +24,6 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: 'Natnael Engeda - Skills',
-    description: "Natnael Engeda - Software Developer | Fullstack Developer | Mobile App Developer | Reactjs | Nodejs | Flutter ",
-    site: "@NatnaelEngeda",
-    images: ['/skills-seo-image.jpg'],
-    creator: "@NatnaelEngeda",
   },
 };
 

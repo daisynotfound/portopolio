@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Natnael Eneda - Projects",
+  title: "Fajar Andhika - Projects",
   description: "Natnael Engeda - Portfolio | Projects",
   keywords: [
     'Fitsum Advert and Print',
@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     'Mobile App Projects'
   ],
   openGraph: {
-    title: "Natnael Engeda - Projects",
+    title: "Fajar Andhika - Projects",
     description: "Natnael Engeda - Portfolio | Projects",
-    url: "https://portfolio.alamondai.com/portfolio",
-    siteName: "Natnael Engeda - Portfolio",
+    url: "https://fan-png.vercel.app/portfolio",
+    siteName: "Fajar Andhika - Portfolio",
     images: [
       {
         url: "/portfolio-seo-image.jpg",
