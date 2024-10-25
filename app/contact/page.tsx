@@ -1,8 +1,5 @@
 "use client"
 import React from 'react';
-import axios from 'axios';
-import { useForm } from "react-hook-form";
-import { toast } from 'react-toastify';
 import Image from 'next/image';
 
 // Images 
