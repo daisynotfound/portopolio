@@ -14,7 +14,7 @@ export const websitesProjects = [
         color: '#1B1107',
         image: myWeb,
         imageDescription: "My Website",
-        url: "https://www.coffeeterminalet.com/",
+        url: "https://fan-png.vercel.app/",
         description: "This is my website portfolio",
         technologies: ['nextjs', 'typescript', 'tailwindcss']
     },
