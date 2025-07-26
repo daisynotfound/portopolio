@@ -33,9 +33,9 @@ export default function Skills() {
         </div>
         <div className='w-full md:w-[80%]'>
           <p>
-            {` I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like Next.js, React.js, Tailwind, Bootstap and MUI. I'm a quick learner
-            and collaborate closely with clients to create efficientm scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to
-            life!`}
+            {`I am a beginner web developer with foundational skills in frontend development using HTML, CSS, and JavaScript.
+            as well as experience in backend development with Laravel and Node.js. I am capable of building responsive user interface and handling backend logic, APIs, and database integraion.
+            i am currently focused on improving my skills to become a rellable fullstack developer.`}
           </p>
         </div>
         <div className='flex flex-col gap-5'>
