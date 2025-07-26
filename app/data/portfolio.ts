@@ -35,8 +35,8 @@ export const backendProjects = [
     {
         id: 2,
         name: "E-commerce",
-        color: '#EA2829',
-        image: shirogane,
+        color: '#32a8a8',
+        image: be,
         imageDescription: "E-commerce",
         url: "https://github.com/daisynotfound/DaisyShop",
         description: "Same e-commerce but you can check your product status on your cart",
