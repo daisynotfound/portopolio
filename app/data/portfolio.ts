@@ -30,7 +30,7 @@ export const backendProjects = [
         imageDescription: "E-commerce System",
         url: "https://github.com/daisynotfound/shopee",
         description: "E-commerce with 2 role (Admin and User)",
-        technologies: ['laravel', 'php']
+        technologies: ['Laravel', 'Php']
     }
     // {
     //     id: 2,
