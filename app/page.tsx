@@ -49,7 +49,7 @@ export default function Home() {
 
                 {/* Gmail Icon */}
                 <div
-                  onClick={() => window.open('mailto:fajarandhika0207@gmail.com')}
+                  onClick={() => window.open('mailto:fajarandhika654@gmail.com')}
                   className='rounded-full bg-fontColor w-auto p-2 cursor-pointer'>
                   <Image
                     className='w-6 h-6'
@@ -62,7 +62,7 @@ export default function Home() {
 
                 {/* Github Icon */}
                 <div
-                  onClick={() => window.open('https://www.github.com/fan-png')}
+                  onClick={() => window.open('https://www.github.com/daisynotfound')}
                   className='rounded-full bg-white w-auto p- cursor-pointer'>
                   <Image
                     className='w-10 h-10'
