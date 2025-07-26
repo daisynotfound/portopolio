@@ -18,6 +18,8 @@ import {
   SiFirebase,
   SiExpress,
   SiShopify,
+  SiLaravel,
+  SiPhp
 } from "react-icons/si";
 
 // import { RiNextjsFill } from "react-icons/ri";
@@ -64,6 +66,10 @@ export default function PortfolioCard({
       return <SiShopify className="text-3xl text-[#7AB55C]" />
     } else if (icon == 'nextjs') {
       return <TbBrandNextjs className="text-3xl text-[#000000]" />
+    } else if (icon == 'Laravel') {
+      return <SiLaravel className="text-3xl text-[#f55247]" />
+    } else if (icon == 'Php') {
+      return <SiPhp className="text-3xl text-[#474a8a]"  />
     }
 
   }

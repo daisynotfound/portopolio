@@ -1,7 +1,8 @@
 import React from 'react'
 import PortfolioCard from './components/PortfolioCard';
 import {
-  websitesProjects
+  backendProjects,
+  frontendProjects
 } from '../data/portfolio';
 
 export default function Portfolio() {
@@ -10,15 +11,38 @@ export default function Portfolio() {
       <div className="w-full py-2 flex items-center justify-center">
         <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-fontColor">Portfolio</h1>
       </div>
-      {/* Websites */}
+      {/* Frontend*/}
       <div>
         <div className="w-full py-2 flex items-center justify-start">
-          <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Front End</h1>
+          <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">FrontEnd</h1>
         </div>
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-5 md:py-12 ">
           {
-            websitesProjects.map((item: any, index: number) => (
+            frontendProjects.map((item: any, index: number) => (
+              <PortfolioCard
+                key={index}
+                name={item.name}
+                color={item.color}
+                image={item.image.src}
+                imageDescription={item.imageDescription}
+                url={item.url}
+                description={item.description}
+                technologies={item.technologies} />
+            ))
+          }
+        </div>
+      </div>
+
+      {/* Backend*/}
+      <div>
+        <div className="w-full py-2 flex items-center justify-start">
+          <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">BackEnd</h1>
+        </div>
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-5 md:py-12 ">
+          {
+            backendProjects.map((item: any, index: number) => (
               <PortfolioCard
                 key={index}
                 name={item.name}
