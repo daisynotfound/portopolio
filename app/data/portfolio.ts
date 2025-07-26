@@ -26,7 +26,7 @@ export const backendProjects = [
         id: 1,
         name: "E-commerse System",
         color: '#32a8a8',
-        image: myWeb,
+        image: be,
         imageDescription: "E-commerce System",
         url: "https://github.com/daisynotfound/shopee",
         description: "E-commerce with 2 role (Admin and User)",
