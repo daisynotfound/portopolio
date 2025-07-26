@@ -12,7 +12,7 @@ export const frontendProjects = [
     {
         id: 1,
         name: "Teams Platform",
-        color: '#EA2829',
+        color: '#4673b3',
         image: shirogane,
         imageDescription: "Bermel Fest Image",
         url: "https://shiroganeteams.vercel.app/",
