@@ -13,7 +13,7 @@ export default function Portfolio() {
       {/* Websites */}
       <div>
         <div className="w-full py-2 flex items-center justify-start">
-          <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Websites</h1>
+          <h1 className="text-4xl md:text-3xl xl:text-4xl font-bold text-fontColor link-underline link-active">Front End</h1>
         </div>
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-5 md:py-12 ">

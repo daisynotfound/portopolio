@@ -50,7 +50,6 @@ export default function Skills() {
                 <h1 className='text-3xl md:text-4xl font-llight'>Basics</h1>
                 <div className='flex flex-col md:flex-row md:flex-wrap gap-10 p-2 py-5'>
                   <SkillBox link={'https://www.w3schools.com/html/'} name={'HTML/CSS/JS'} image={html_css_js} />
-                  <SkillBox link={'https://www.typescriptlang.org/'} name={'Typescript'} image={ts.src} />
                   <SkillBox link='https://www.python.org/' name={'Python'} image={python.src} />
                 </div>
               </div>
