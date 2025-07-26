@@ -30,9 +30,6 @@ export default function Header() {
             <NavLinks href="/portfolio" exact className="normal-header link-underline hover:line-height-normal">
               Portfolio
             </NavLinks>
-            <NavLinks href="/contact" exact className="normal-header link-underline hover:line-height-normal">
-              Contact
-            </NavLinks>
           </ul>
         </div>
 
@@ -47,7 +44,6 @@ export default function Header() {
               <DropdownItem key="home" href="/">Home</DropdownItem>
               <DropdownItem key="skills" href="/skills">Skills</DropdownItem>
               <DropdownItem key="portfolio" href="/portfolio">Portfolio</DropdownItem>
-              <DropdownItem key="contact" href="/contact"> Contact</DropdownItem>
             </DropdownMenu>
           </Dropdown>
         </div>

@@ -19,6 +19,18 @@ export default function Home() {
       <div className='w-full mx-auto container grid grid-cols-1 md:grid-cols-2 md:px-10 xl:px-20 py-10 md:gap-32'>
 
         {/* First Grid */}
+         <div className=' flex items-start justify-center py-10'>
+          <Image
+            className='w-[80%] md:w-full'
+            src="/assets/images/Fajar.jpg"
+            width={500}
+            height={500}
+            alt="Programmer Image"
+          />
+        </div>
+
+
+        {/* Second Grid */}
         <div className='flex flex-col gap-10 items-start justify-start  p-5 font-ProductSans text-fontColor'>
           <div className='flex flex-col gap-5'>
             <h1 className='text-4xl md:text-4xl lg:text-6xl font-bold font-ProductSans '>Fajar Andhika</h1>
@@ -85,18 +97,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-
-
-        {/* Second Grid */}
-        <div className=' flex items-start justify-center py-10'>
-          <Image
-            className='w-[80%] md:w-full'
-            src="/assets/images/firefly.png"
-            width={500}
-            height={500}
-            alt="Programmer Image"
-          />
         </div>
       </div>
       <div className='flex items-center justify-center font-ProductSans py-2'>
